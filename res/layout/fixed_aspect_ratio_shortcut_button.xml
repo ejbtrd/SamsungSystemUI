@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.sizecompatui.FixedAspectRatioShortcutButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@id/fixed_aspect_ratio_shortcut_button" android:background="@drawable/hidden_visual_cue_rotate_btn" android:layout_width="@dimen/size_compat_button_size" android:layout_height="@dimen/size_compat_button_size" android:src="@drawable/ic_aspect_ratio_full_screen_apps" android:contentDescription="@string/aspect_ratio_settings_content_description" />
+</com.android.wm.shell.sizecompatui.FixedAspectRatioShortcutButton>

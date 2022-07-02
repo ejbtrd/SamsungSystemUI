@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/header_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/clear_cover_subscreen_noti_list_layout_margin" android:layout_marginEnd="@dimen/clear_cover_subscreen_noti_list_layout_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_key" android:background="@drawable/subscreen_notification_back_button_background" android:layout_width="@dimen/clear_cover_subscreen_noti_detail_item_back_icon_size" android:layout_height="@dimen/clear_cover_subscreen_noti_detail_item_back_icon_size" android:layout_marginTop="@dimen/clear_cover_subscreen_noti_detail_item_back_icon_top_margin" android:layout_marginBottom="@dimen/clear_cover_subscreen_noti_detail_item_back_icon_bottom_margin" android:src="@drawable/subscreen_notification_detail_back_button_icon" android:layout_marginStart="@dimen/clear_cover_subscreen_noti_detail_item_back_icon_start_margin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/subscreen_header_icon" android:layout_width="@dimen/clear_cover_subscreen_noti_icon_size" android:layout_height="@dimen/clear_cover_subscreen_noti_icon_size" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/subscreen_notification_text_color" android:ellipsize="end" android:id="@id/subscreen_header_app_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="roboto-medium" android:layout_marginStart="@dimen/clear_cover_subscreen_noti_detail_header_app_name_start_margin" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="end" android:id="@id/secure_icon" android:visibility="gone" android:layout_width="@dimen/clear_cover_subscreen_noti_secure_icon_size" android:layout_height="@dimen/clear_cover_subscreen_noti_secure_icon_size" android:layout_marginEnd="@dimen/clear_cover_subscreen_noti_list_item_layout_margin" />
+    </LinearLayout>
+</LinearLayout>

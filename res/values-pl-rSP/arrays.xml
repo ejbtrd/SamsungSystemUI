@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Użyj ustawień systemowych (domyślnie)</item>
+        <item>16 bitów / próbka</item>
+        <item>24 bity / próbka</item>
+        <item>32 bity / próbka</item>
+        <item>24/32 bity/próbkę</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Użyj ustawień systemowych (domyślnie)</item>
+        <item>16 bitów / próbka</item>
+        <item>24 bity / próbka</item>
+        <item>32 bity / próbka</item>
+        <item>24/32 bity/próbkę</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skanowaniy…</item>
+        <item>Łōnczynie…</item>
+        <item>Uwierzytelnianiy…</item>
+        <item>Uzyskiwaniy adresy IP….</item>
+        <item>Połōnczōno</item>
+        <item>Deaktywowane</item>
+        <item>Rozłōnczaniy…</item>
+        <item>Rozłōnczono</item>
+        <item>Niyudane</item>
+        <item>Blokniynty</item>
+        <item>Sprŏwdzanie jakości połōnczyniŏ z Internecym…</item>
+    </string-array>
+</resources>

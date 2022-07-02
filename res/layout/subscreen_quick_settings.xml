@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center_vertical" android:id="@id/subroom_sound_settings" android:layout_marginStart="39.0px" android:layout_marginEnd="35.0px" layout="@layout/subscreen_sound_settings" />
+        <com.android.systemui.qp.SubroomBrightnessSettingsView android:layout_gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="@dimen/subscreen_brightness_seekbar_width" android:layout_height="@dimen/subscreen_brightness_seekbar_height" android:layout_marginEnd="40.0px">
+            <include layout="@layout/subscreen_brightness_seekbar" />
+        </com.android.systemui.qp.SubroomBrightnessSettingsView>
+    </LinearLayout>
+</LinearLayout>

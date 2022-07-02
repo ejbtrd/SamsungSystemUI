@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="controls_item_number_of_favorites">
+        <item quantity="other">%d տարր է ընտրվել</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d տարր է ընտրվել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_attempt_left">
+        <item quantity="other">%d փորձ է մնացել</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d փորձ է մնացել</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_attempt_remaining">
+        <item quantity="other">(%d փորձ է մնացել)</item>
+        <item quantity="one">(1 փորձ է մնացել)</item>
+    </plurals>
+    <plurals name="kg_knox_guard_incorrect_pin_remaining_hours_left_phone">
+        <item quantity="other">Կատարվել է այս հեռախոսն արգելաբացելու %1$d փորձ: Նորից փորձեք %2$d ժամից:</item>
+        <item quantity="one">Կատարվել է այս հեռախոսն արգելաբացելու %d փորձ: Նորից փորձեք 1 ժամից:</item>
+    </plurals>
+    <plurals name="kg_knox_guard_incorrect_pin_remaining_mins_left_phone">
+        <item quantity="other">Կատարվել է այս հեռախոսն արգելաբացելու %1$d փորձ: Նորից փորձեք %2$d րոպեից:</item>
+        <item quantity="one">Կատարվել է այս հեռախոսն արգելաբացելու %d փորձ: Նորից փորձեք 1 րոպեից:</item>
+    </plurals>
+    <plurals name="kg_knox_guard_incorrect_pin_remaining_seconds_left_phone">
+        <item quantity="other">Կատարվել է այս հեռախոսն արգելաբացելու %1$d փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Կատարվել է այս հեռախոսն արգելաբացելու %d փորձ: Նորից փորձեք 1 վայրկյանից:</item>
+    </plurals>
+    <plurals name="kg_secure_attempts_to_unlock_with_fingerprints">
+        <item quantity="other">%d փորձ է մնացել մատնահետքերով արգելաբացման համար:</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d փորձ է մնացել մատնահետքերով արգելաբացման համար:</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_biometric">
+        <item quantity="other">Ձեր կենսաչափական տվյալները նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր կենսաչափական տվյալները նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_face">
+        <item quantity="other">Դեմքի ճանաչումը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Դեմքի ճանաչումը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_fingerprint">
+        <item quantity="other">Ձեր մատնահետքը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ձեր մատնահետքը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_ib">
+        <item quantity="other">Intelligent Scan-ը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Intelligent Scan-ը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_iris">
+        <item quantity="other">Ծիածանաթաղանթի ճանաչումը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ծիածանաթաղանթի ճանաչումը նորից փորձեք %d վայրկյանից</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_min">
+        <item quantity="other">Նորից փորձեք %d րոպեից</item>
+        <item quantity="one">Նորից փորձեք %d րոպեից</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown_sec">
+        <item quantity="other">Նորից փորձեք %d վայրկյանից</item>
+        <item quantity="one">Նորից փորձեք %d վայրկյանից</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_biometrics">
+        <item quantity="other">Կենսաչափական տվյալները ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Կենսաչափական տվյալները ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_face">
+        <item quantity="other">Ձեր դեմքը հաստատելու %1$d անհաջող փորձ է կատարվել: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Ձեր դեմքը հաստատելու %1$d անհաջող փորձ է կատարվել: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_fingerprint">
+        <item quantity="other">Մատնահետքերը ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Մատնահետքերը ստուգելու %1$d սխալ փորձ: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_ib">
+        <item quantity="other">Intelligent Scan-ը հաստատելու %1$d անհաջող փորձ է կատարվել: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Intelligent Scan-ը հաստատելու %1$d անհաջող փորձ է կատարվել: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_countdown_by_iris">
+        <item quantity="other">Ձեր ծիածանաթաղանթները հաստատելու %1$d անհաջող փորձ է կատարվել: Նորից փորձեք %2$d վայրկյանից:</item>
+        <item quantity="one">Ձեր ծիածանաթաղանթները հաստատելու %1$d անհաջող փորձ է կատարվել: Նորից փորձեք %2$d վայրկյանից:</item>
+    </plurals>
+    <plurals name="plural_notification_count">
+        <item quantity="other">%d ծանուցում</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ծանուցում</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ժամ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d րոպե</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

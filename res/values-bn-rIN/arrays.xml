@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>সিস্টেম নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>16 বিট/নমুনা</item>
+        <item>24 বিট/নমুনা</item>
+        <item>32 বিট/নমুনা</item>
+        <item>24/32 বিট/নমুনা</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>সিস্টেম নির্বাচন ব্যবহার করুন (ডিফল্ট)</item>
+        <item>16 বিট/নমুনা</item>
+        <item>24 বিট/নমুনা</item>
+        <item>32 বিট/নমুনা</item>
+        <item>24/32 বিট/নমুনা</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>স্ক্যান হচ্ছে…</item>
+        <item>সংযোগ হচ্ছে…</item>
+        <item>প্রমাণীকরণ চলছে…</item>
+        <item>IP ঠিকানা প্রাপ্ত করা হচ্ছে…</item>
+        <item>সংযুক্ত</item>
+        <item>স্থগিত হয়েছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হচ্ছে….</item>
+        <item>সংযোগ বিচ্ছিন্ন</item>
+        <item>অসফল</item>
+        <item>অবরুদ্ধ হয়েছে</item>
+        <item>আপনার ইন্টারনেট সংযোগের গুণমান পরীক্ষা করা হচ্ছে…</item>
+    </string-array>
+</resources>

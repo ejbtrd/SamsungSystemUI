@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Жүйе таңдауын пайдалану (әдепкі)</item>
+        <item>16 бит/үлгі</item>
+        <item>24 бит/үлгі</item>
+        <item>32 бит/үлгі</item>
+        <item>24/32 бит/үлгі</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Жүйе таңдауын пайдалану (әдепкі)</item>
+        <item>16 бит/үлгі</item>
+        <item>24 бит/үлгі</item>
+        <item>32 бит/үлгі</item>
+        <item>24/32 бит/үлгі</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Көшірілуде…</item>
+        <item>Байланысуда…</item>
+        <item>Расталуда…</item>
+        <item>IP мекенжайы алынуда…</item>
+        <item>Қосылды</item>
+        <item>Ұстаулы</item>
+        <item>Ажырату</item>
+        <item>Ажыратылды</item>
+        <item>Сәтсіз</item>
+        <item>Бұғатталған</item>
+        <item>Интернет қосылымыңыздың сапасы тексерілуде…</item>
+    </string-array>
+</resources>

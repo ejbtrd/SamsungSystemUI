@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textColor="?wallpaperTextColorSecondary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/access_to_5g_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/carrier_text_access_to_5g" android:singleLine="true" android:fontFamily="sec-roboto-regular" android:textDirection="locale" />
+</FrameLayout>

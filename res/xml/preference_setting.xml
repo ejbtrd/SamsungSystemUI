@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <androidx.preference.SeslSwitchPreferenceScreen android:title="@string/controls_settings_use_while_phone_is_locked" android:key="ControlsSettingsUseWhilePhoneIsLocked" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

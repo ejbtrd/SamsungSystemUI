@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Користи системски избор (основно)</item>
+        <item>16 бита/примерок</item>
+        <item>24 бита/примерок</item>
+        <item>32 бита/примерок</item>
+        <item>24/32 бита/примерок</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Користи системски избор (основно)</item>
+        <item>16 бита/примерок</item>
+        <item>24 бита/примерок</item>
+        <item>32 бита/примерок</item>
+        <item>24/32 бита/примерок</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Пребарување…</item>
+        <item>Поврзување…</item>
+        <item>Се потврдува…</item>
+        <item>Се добива IP-адреса…</item>
+        <item>Поврзано</item>
+        <item>Суспендирано</item>
+        <item>Врската се прекинува…</item>
+        <item>Врската е прекината</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Се проверува квалитетот на поврзувањето со интернет…</item>
+    </string-array>
+</resources>

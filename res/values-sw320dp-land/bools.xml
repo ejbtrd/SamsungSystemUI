@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="hidden_lock_icon_for_lock_out_policy">true</bool>
+</resources>

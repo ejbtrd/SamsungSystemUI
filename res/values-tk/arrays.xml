@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Ulgam saýlawyny ulan (standart)</item>
+        <item>16 bit/nusga</item>
+        <item>24 bit/nusga</item>
+        <item>32 bit/nusga</item>
+        <item>24/32 bit/nusga</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Ulgam saýlawyny ulan (standart)</item>
+        <item>16 bit/nusga</item>
+        <item>24 bit/nusga</item>
+        <item>32 bit/nusga</item>
+        <item>24/32 bit/nusga</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skanirlenýär…</item>
+        <item>Birikdirilýär…</item>
+        <item>Şahsyýeti barlanylýar…</item>
+        <item>IP salgy alynýar…</item>
+        <item>Baglanan</item>
+        <item>Asylgy</item>
+        <item>Baglanyşyk kesilýär…</item>
+        <item>Aragatnaşyk kesildi</item>
+        <item>Şowsuz</item>
+        <item>Beklenildi</item>
+        <item>Internet baglanyşygyňyzyň hili barlanýar…</item>
+    </string-array>
+</resources>

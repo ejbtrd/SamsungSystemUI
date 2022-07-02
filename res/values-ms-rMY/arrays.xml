@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Guna pemilihan sistem (pilihan)</item>
+        <item>16 bit/sampel</item>
+        <item>24 bit/sampel</item>
+        <item>32 bit/sampel</item>
+        <item>24/32 bit/sampel</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Guna pemilihan sistem (pilihan)</item>
+        <item>16 bit/sampel</item>
+        <item>24 bit/sampel</item>
+        <item>32 bit/sampel</item>
+        <item>24/32 bit/sampel</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Mengimbas…</item>
+        <item>Menyambungkan…</item>
+        <item>Mengesahkan…</item>
+        <item>Mendapat alamat IP…</item>
+        <item>Disambung</item>
+        <item>Ditangguhkan</item>
+        <item>Memutus…</item>
+        <item>Diputuskan</item>
+        <item>Tidak berjaya</item>
+        <item>Disekat</item>
+        <item>Menyemak kualiti sambungan Internet anda…</item>
+    </string-array>
+</resources>

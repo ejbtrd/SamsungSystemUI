@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>सिस्टम निवड वापरा (डीफॉल्ट)</item>
+        <item>16 बिट/नमुना</item>
+        <item>24 बिट/नमुना</item>
+        <item>32 बिट/नमुना</item>
+        <item>24/32 बिट/नमुना</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>सिस्टम निवड वापरा (डीफॉल्ट)</item>
+        <item>16 बिट/नमुना</item>
+        <item>24 बिट/नमुना</item>
+        <item>32 बिट/नमुना</item>
+        <item>24/32 बिट/नमुना</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>स्कॅन करीत आहे…</item>
+        <item>जोडला जात आहे…</item>
+        <item>प्रमाणीकरण चालू…</item>
+        <item>IP पत्ते मिळवत आहे…</item>
+        <item>जोडले</item>
+        <item>निलंबित</item>
+        <item>खंडीत करत आहे…</item>
+        <item>खंडित केले</item>
+        <item>अयशस्वी</item>
+        <item>अवरोधित केलेले</item>
+        <item>आपल्‍या इंटरनेट कनेक्‍शनची गुणवत्‍ता तपासत आहे…</item>
+    </string-array>
+</resources>

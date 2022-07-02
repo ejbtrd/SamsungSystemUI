@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/soundmode_tile_volume_bar_container" android:paddingBottom="12.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_qs_detail_items_side_padding" android:paddingEnd="@dimen/sec_qs_detail_items_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/qs_detail_item_name" android:ellipsize="end" android:id="@id/soundmode_tile_volume_bar_title" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec-roboto-light" />
+    <FrameLayout android:id="@id/animation_icon_frame" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_below="@id/soundmode_tile_volume_bar_title">
+        <com.android.systemui.qs.tiles.SoundModeTileVolumeIcon android:layout_gravity="center_horizontal" android:id="@id/qs_volume_bar_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <SeekBar android:theme="@style/Theme.DeviceDefault.QS.Detail.SeekBar" android:gravity="center_vertical" android:id="@id/soundmode_tile_volume_bar_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/soundmode_tile_volume_bar_title" android:layout_alignBottom="@id/animation_icon_frame" android:layout_alignWithParentIfMissing="true" android:paddingStart="12.0dip" android:layout_toEndOf="@id/animation_icon_frame" android:progressTint="@null" android:progressBackgroundTint="@null" />
+</RelativeLayout>

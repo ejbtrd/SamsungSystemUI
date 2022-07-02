@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Përdor përzgjedhjen e sistemit (parazgjedhje)</item>
+        <item>Shembull/16 bits</item>
+        <item>Shembull/24 bits</item>
+        <item>Shembull/32 bits</item>
+        <item>Shembull/24/32 bits</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Përdor përzgjedhjen e sistemit (parazgjedhje)</item>
+        <item>Shembull/16 bits</item>
+        <item>Shembull/24 bits</item>
+        <item>Shembull/32 bits</item>
+        <item>Shembull/24/32 bits</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Duke skanuar…</item>
+        <item>Po lidhem…</item>
+        <item>Duke autentikuar…</item>
+        <item>Po merret adresa IP…</item>
+        <item>Lidhur</item>
+        <item>Pezulluar</item>
+        <item>Duke u shkëputur…</item>
+        <item>Shkëputur</item>
+        <item>Pa sukses</item>
+        <item>Bllokuar</item>
+        <item>Duke kontrolluar cilësinë e lidhjes tënde në Internet…</item>
+    </string-array>
+</resources>

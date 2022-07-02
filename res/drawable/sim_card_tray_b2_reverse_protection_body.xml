@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="390.0dip" android:width="716.0dip" android:viewportWidth="716.0" android:viewportHeight="390.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M7.1,41h162.9v323.9h-162.9z" />
+        <path android:fillColor="#ff0072de" android:pathData="M149.4,214.3m-90.7,0a90.7,90.7 0,1 1,181.4 0a90.7,90.7 0,1 1,-181.4 0" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    </group>
+    <path android:fillColor="#ffffffff" android:pathData="M102.1,182.7h67.4v63.7h-67.4z" />
+    <path android:fillColor="#ff7a7a7a" android:pathData="M89.5,166.5c1.8,0 3.2,1.5 3.2,3.2v91.6c0,1.8 -1.5,3.2 -3.2,3.2c-1.8,0 -3.2,-1.5 -3.2,-3.2v-91.6C86.3,168 87.7,166.6 89.5,166.5z" />
+    <path android:fillColor="#ff7a7a7a" android:pathData="M89.6,175.8h82.2c1.8,0 3.2,1.5 3.2,3.2v66.8c0,1.8 -1.5,3.2 -3.2,3.2H89.5c-1.8,0 -3.2,-1.5 -3.2,-3.2V179C86.3,177.2 87.7,175.7 89.6,175.8zM92.7,242.5h75.8v-60.4H92.7V242.5L92.7,242.5z" />
+    <path android:fillColor="#ff7a7a7a" android:pathData="M89.5,179h15.2v66.8h-15.2z" />
+    <path android:fillColor="#ffffffff" android:pathData="M104.8,182.3l0,37.5l16.3,22.8l47.5,0l0,-60.3z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="#ff7a7a7a" android:pathData="M168.9,181.6l-19,0l19,19z" />
+    <group>
+        <clip-path android:pathData="M34,-30.7h716v420.6h-716z" />
+        <path android:fillColor="#ff7a7a7a" android:pathData="M573.3,871.1H210.7c-22.5,0 -40.8,-18.3 -40.8,-40.8V100.6c0,-22.5 18.3,-40.8 40.8,-40.8h362.7c22.5,0 40.8,18.3 40.8,40.8v729.6C614.2,852.8 595.9,871.1 573.3,871.1zM210.7,65.4c-19.4,0 -35.2,15.8 -35.2,35.2v729.6c0,19.4 15.8,35.2 35.2,35.2h362.7c19.4,0 35.2,-15.8 35.2,-35.2V100.6c0,-19.4 -15.8,-35.2 -35.2,-35.2C573.4,65.4 210.7,65.4 210.7,65.4z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M34,-30.7h716v420.6h-716z" />
+        <group>
+            <clip-path android:pathData="M568.7,860.7H215.3c-19.2,0 -34.7,-15.5 -34.7,-34.7V106c0,-19.2 15.5,-34.7 34.7,-34.7h353.4c19.2,0 34.7,15.5 34.7,34.7v720C603.4,845.2 587.9,860.7 568.7,860.7z" />
+            <group>
+                <clip-path android:pathData="M180.7,37.8h424.6v754.9h-424.6z" />
+                <path android:fillColor="#ffb7b7b7" android:pathData="M308.3,553.8c27.6,-32.1 45.8,-72.2 43.7,-115.3c-0.5,-8 0,-16.4 1.6,-25.3c11.5,-63.8 76.3,-89.7 134.1,-90.7l0.1,-0.1c-13.1,-0.5 -26.2,-2.7 -38.8,-6c-46.9,-12.5 -87.4,-41.1 -128.1,-66.7c-18.2,-11.5 -36.4,-20.6 -58.4,-21.7c-43.9,-2.2 -85.4,34.2 -81.4,78l-0.4,-0.6v417.5c0,-29 9.9,-57.8 27.9,-80.4C236.5,607.4 278.9,588 308.3,553.8" android:strokeAlpha="0.13" android:fillAlpha="0.13" />
+                <path android:fillColor="#ffb7b7b7" android:pathData="M600.8,242.3c-7.1,25.8 -23,48.6 -45.4,63.2c-20.4,13.3 -44,17.9 -67.7,17l-0.1,0.1c-57.7,1 -122.6,26.9 -134.1,90.7c-1.6,8.9 -2.1,17.3 -1.6,25.3c1,11.8 3.7,22.5 7.7,32.2c3.9,9.1 9,17.7 15.1,25.7c38.9,49.5 117.6,70 164.8,106.4c37,28.5 65.7,71.6 65.7,119.9V444.5V208.1C605.3,219.6 603.8,231.1 600.8,242.3" android:strokeAlpha="0.28" android:fillAlpha="0.28" />
+                <path android:fillColor="#ffb7b7b7" android:pathData="M605.3,58.1V18.8h-38.9H219.5h-38.9v100.9l0,0v185.5l0.4,0.6c-4,-43.8 37.5,-80.2 81.4,-78c21.9,1.1 40.2,10.3 58.4,21.7c40.7,25.6 81.2,54.2 128.1,66.7c12.6,3.4 25.7,5.5 38.8,6c23.7,0.9 47.3,-3.6 67.7,-17c22.4,-14.6 38.3,-37.3 45.4,-63.2c3,-11.1 4.5,-22.6 4.5,-34.2v-39.2V58.1L605.3,58.1z" android:strokeAlpha="0.25" android:fillAlpha="0.25" />
+                <path android:fillColor="#ffb7b7b7" android:pathData="M605.3,722.8L605.3,722.8v-12h-0.6c-4.3,-43.4 -31.1,-81.8 -65.1,-107.9c-47.2,-36.4 -125.9,-56.8 -164.8,-106.4c-6.1,-8 -11.3,-16.6 -15.1,-25.7c-4,-9.7 -6.7,-20.4 -7.7,-32.2c2,43.1 -16.2,83.2 -43.7,115.3c-29.3,34.1 -71.8,53.6 -99.7,88.5c-15.5,19.4 -25,43.6 -27.3,68.4h-0.6v100.9h38.9h346.9h38.9v-39.3l0,0v-49.6H605.3z" android:strokeAlpha="0.17" android:fillAlpha="0.17" />
+            </group>
+        </group>
+    </group>
+</vector>

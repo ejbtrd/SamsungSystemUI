@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Օգտագործել համակարգի ընտրությունը (կանխադրված)</item>
+        <item>16 բիթ/նմուշ</item>
+        <item>24 բիթ/նմուշ</item>
+        <item>32 բիթ/նմուշ</item>
+        <item>24/32 բիթ/նմուշ</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Օգտագործել համակարգի ընտրությունը (կանխադրված)</item>
+        <item>16 բիթ/նմուշ</item>
+        <item>24 բիթ/նմուշ</item>
+        <item>32 բիթ/նմուշ</item>
+        <item>24/32 բիթ/նմուշ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Սկանավորում է…</item>
+        <item>Միացում…</item>
+        <item>Վավերականացում…</item>
+        <item>Ստացվում է IP հասցե…</item>
+        <item>Միացված</item>
+        <item>Դադարեցնել</item>
+        <item>Անջատվում է…</item>
+        <item>Անջատված է</item>
+        <item>Անհաջող</item>
+        <item>Արգելափակված</item>
+        <item>Ստուգվում է Ձեր ինտերնետի միացման որակը…</item>
+    </string-array>
+</resources>

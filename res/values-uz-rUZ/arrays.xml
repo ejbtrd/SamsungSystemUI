@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Tizim tanlovidan foydalanish (birlamchi)</item>
+        <item>16 bit/namuna</item>
+        <item>24 bit/namuna</item>
+        <item>32 bit/namuna</item>
+        <item>24/32 bit/namuna</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Tizim tanlovidan foydalanish (birlamchi)</item>
+        <item>16 bit/namuna</item>
+        <item>24 bit/namuna</item>
+        <item>32 bit/namuna</item>
+        <item>24/32 bit/namuna</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Qidirish</item>
+        <item>Ulanmoqda…</item>
+        <item>Haqiqiylik tekshirilmoqda…</item>
+        <item>IP-manzillar olinmoqda…</item>
+        <item>Ulangan</item>
+        <item>To‘xtatildi</item>
+        <item>Uzilmoqda…</item>
+        <item>Uzilgan</item>
+        <item>Muvaffaqiyatsiz</item>
+        <item>Bloklangan</item>
+        <item>Internet ulanishingiz sifati tekshirilmoqda…</item>
+    </string-array>
+</resources>

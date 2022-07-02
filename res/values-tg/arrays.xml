@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Интихоби системаро истифода бурдан (пешфарз)</item>
+        <item>16 бит/сэмпл</item>
+        <item>24 бит/сэмпл</item>
+        <item>32 бит/сэмпл</item>
+        <item>24/32 бит/сэмпл</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Интихоби системаро истифода бурдан (пешфарз)</item>
+        <item>16 бит/сэмпл</item>
+        <item>24 бит/сэмпл</item>
+        <item>32 бит/сэмпл</item>
+        <item>24/32 бит/сэмпл</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Хондагирӣ иҷро мешавад…</item>
+        <item>Пайвастшавӣ…</item>
+        <item>Санҷиши ҳаққоният…</item>
+        <item>Суроғаи IP гирифта мешавад…</item>
+        <item>Пайваст шудем</item>
+        <item>Қатъшуда</item>
+        <item>Пайваст пароканда карда мешавад…</item>
+        <item>Пайваст пароканда шуд</item>
+        <item>Номуваффақ</item>
+        <item>Манъшуда</item>
+        <item>Сифати пайвасти шумо ба Интернет тафтиш карда мешавад…</item>
+    </string-array>
+</resources>

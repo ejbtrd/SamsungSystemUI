@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="global_screenshot_effect_round_x">35.0dip</dimen>
+    <dimen name="global_screenshot_effect_round_y">35.0dip</dimen>
+</resources>

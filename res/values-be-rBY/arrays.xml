@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Выкарыстоўваць выбар сістэмы (стандартны)</item>
+        <item>16 біт/выбарка</item>
+        <item>24 біты/выбарка</item>
+        <item>32 біты/выбарка</item>
+        <item>24/32 біты/выбарка</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Выкарыстоўваць выбар сістэмы (стандартны)</item>
+        <item>16 біт/выбарка</item>
+        <item>24 біты/выбарка</item>
+        <item>32 біты/выбарка</item>
+        <item>24/32 біты/выбарка</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Сканаванне…</item>
+        <item>Злучэнне…</item>
+        <item>Аўтэнтыфікацыя…</item>
+        <item>Атрыманне IP-адрасу…</item>
+        <item>Падлучана</item>
+        <item>Прыпынена</item>
+        <item>Адлучэнне…</item>
+        <item>Адлучана</item>
+        <item>Не ўдалося</item>
+        <item>Заблакавана</item>
+        <item>Праверка якасці інтэрнэт-злучэння…</item>
+    </string-array>
+</resources>

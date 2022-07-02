@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/subscreen_notification_list_type_item_background" android:layout_width="@dimen/subscreen_noti_list_item_width" android:layout_height="@dimen/subscreen_noti_list_single_line_item_height" android:layout_marginBottom="10.0px" android:layout_marginStart="10.0px" android:layout_marginEnd="10.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="horizontal" android:layout_width="@dimen/subscreen_noti_list_item_title_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/subscreen_noti_list_first_line_top_margin" android:layout_marginBottom="@dimen/subscreen_noti_list_first_line_top_margin" android:layout_marginStart="@dimen/subscreen_noti_list_icon_left_margin" android:layout_marginEnd="@dimen/subscreen_noti_list_first_line_right_margin">
+            <TextView android:textSize="@dimen/subscreen_noti_title_text_size" android:textStyle="bold" android:textColor="@color/subscreen_notification_text_color" android:ellipsize="end" android:id="@id/hide_content_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="roboto-medium" android:layout_marginEnd="0.0px" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>سسٹم کا انتخاب استعمال کریں (ڈیفالٹ)</item>
+        <item>16 بٹس/نمونہ</item>
+        <item>24 بٹس/نمونہ</item>
+        <item>32 بٹس/نمونہ</item>
+        <item>24/32 بٹس/نمونہ</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>سسٹم کا انتخاب استعمال کریں (ڈیفالٹ)</item>
+        <item>16 بٹس/نمونہ</item>
+        <item>24 بٹس/نمونہ</item>
+        <item>32 بٹس/نمونہ</item>
+        <item>24/32 بٹس/نمونہ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>سکین کر رہا ہے۔۔۔۔</item>
+        <item>جڑ رہا ہے</item>
+        <item>تصدیق کررہا ہے…</item>
+        <item>‏IP پتہ حاصل کررہا ہے…</item>
+        <item>منسلک ہوگیا</item>
+        <item>معطل</item>
+        <item>کنیکشن توڑ رہا ہے۔۔۔</item>
+        <item>غیر منسلک ہو گیا</item>
+        <item>ناکام</item>
+        <item>بلاک کردہ</item>
+        <item>آپ کے انٹرنیٹ کنکشن کی کوالٹی کی پڑتال کی جارہی ہے…</item>
+    </string-array>
+</resources>

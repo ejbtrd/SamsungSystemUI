@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Úsáid roghnú córais (réamhshocrú)</item>
+        <item>16 ghiotán/sampla</item>
+        <item>24 giotán/sampla</item>
+        <item>32 giotán/sampla</item>
+        <item>24/32 giotán/sampla</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Úsáid roghnú córais (réamhshocrú)</item>
+        <item>16 ghiotán/sampla</item>
+        <item>24 giotán/sampla</item>
+        <item>32 giotán/sampla</item>
+        <item>24/32 giotán/sampla</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Ag scanadh…</item>
+        <item>Ag nascadh…</item>
+        <item>Ag fíordheimhniú…</item>
+        <item>Seoladh IP á fháil…</item>
+        <item>Nasctha</item>
+        <item>Ar fionraí</item>
+        <item>Ag dínascadh…</item>
+        <item>Dínasctha</item>
+        <item>Níor éirigh leis</item>
+        <item>Bactha</item>
+        <item>Cáilíocht do naisc Idirlín á seiceáil…</item>
+    </string-array>
+</resources>

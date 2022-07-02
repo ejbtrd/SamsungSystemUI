@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@id/background" android:height="3.0dip">
+        <nine-patch android:src="@drawable/qs_flashlight_progress_bar_bg" android:tint="?android:textColorSecondary" android:alpha="0.4" />
+    </item>
+</layer-list>

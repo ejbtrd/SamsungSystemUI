@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kg_password_eca_margin_bottom_tablet">16.0dip</dimen>
+    <dimen name="kg_pattern_eca_margin_bottom_tablet">16.0dip</dimen>
+    <dimen name="kg_pattern_lock_pattern_view_height_tablet">255.0dip</dimen>
+    <dimen name="kg_pattern_lock_pattern_view_margin_bottom_tablet">16.0dip</dimen>
+    <dimen name="kg_pattern_lock_pattern_view_width_tablet">255.0dip</dimen>
+    <dimen name="kg_pattern_message_area_margin_bottom_tablet">18.0dip</dimen>
+    <dimen name="kg_pin_container_margin_bottom_tablet">32.0dip</dimen>
+    <dimen name="kg_pin_eca_margin_bottom_tablet">16.0dip</dimen>
+    <dimen name="kg_security_input_box_margin_top_tablet">22.0dip</dimen>
+    <dimen name="kg_security_password_input_box_margin_bottom_tablet">22.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_spectrum_view_height">265.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_container_margin_top">16.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_height">296.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_color_swatch_view_width">312.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_dialog_padding_bottom">24.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_dialog_padding_top">12.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_main_content_width">360.0dip</dimen>
+    <dimen name="sesl_color_picker_oneui_3_used_color_item_gap_margin">14.399994dip</dimen>
+    <dimen name="sesl_color_picker_rgb_layout_margin">20.0dip</dimen>
+    <dimen name="sesl_color_picker_seekbar_edittext_margin_left">16.0dip</dimen>
+    <dimen name="sesl_color_picker_selected_color_item_margin">13.0dip</dimen>
+    <dimen name="sesl_color_picker_spectrum_size">264.0dip</dimen>
+    <dimen name="widget_big_font_size">88.0dip</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="indicator_garden_scale_icon_ratio">0.9366</item>
+    <dimen name="indicator_garden_scale_signal_cluster_battery_end_margin">2.8096924dip</dimen>
+    <dimen name="indicator_garden_scale_text_size">14.048798dip</dimen>
+    <dimen name="qs_edit_icon_radius">23.0dip</dimen>
+    <dimen name="sec_style_qs_tile_background_size">46.0dip</dimen>
+    <dimen name="sec_style_qs_tile_icon_size">46.0dip</dimen>
+</resources>

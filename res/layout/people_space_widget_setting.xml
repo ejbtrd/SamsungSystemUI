@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:scrollbarStyle="insideOverlay" android:orientation="vertical" android:id="@id/widget_setting_activity" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/widget_setting_action_bar" layout="@layout/people_space_widget_setting_action_bar" />
+    <RelativeLayout android:id="@id/widget_setting_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/widget_setting_action_bar">
+        <LinearLayout android:orientation="horizontal" android:id="@id/space_start" android:background="@color/widget_setting_window_background_color" android:visibility="visible" android:layout_width="@dimen/widget_setting_margins_potrait_mode" android:layout_height="fill_parent" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_setting_actionbar_height" android:layout_toStartOf="@id/space_end" android:layout_toEndOf="@id/space_start">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/widget_preview_outter" android:background="@drawable/people_space_widget_setting_transparent_rounded_corner" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_setting_preview_min_height" android:importantForAccessibility="noHideDescendants" app:layout_constraintBottom_toTopOf="@id/widget_bottom_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <FrameLayout android:layout_gravity="center" android:id="@id/widget_preview" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="3:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout android:background="@color/widget_setting_window_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_preview_margin_bottom" android:layout_below="@id/widget_preview" />
+            <include android:id="@id/widget_bottom_layout" layout="@layout/people_space_widget_setting_bottom" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/space_end" android:background="@color/widget_setting_window_background_color" android:visibility="visible" android:layout_width="@dimen/widget_setting_margins_potrait_mode" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <FrameLayout android:background="@color/widget_setting_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cancelSaveLayout" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_actionbar_height" android:layout_marginHorizontal="@dimen/widget_setting_content_horizontal_padding">
+            <TextView android:textColor="@color/widget_action_text_color" android:id="@id/cancelText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/widget_setting_cancel" android:layout_weight="1.0" android:requiresFadingEdge="horizontal" style="@style/PeopleWidgetSetting_Bottom" />
+            <TextView android:textColor="@color/widget_action_text_color" android:id="@id/saveText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/widget_setting_save" android:layout_weight="1.0" android:requiresFadingEdge="horizontal" style="@style/PeopleWidgetSetting_Bottom" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.buttons.QSMumButton android:id="@id/mum_button_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_qs_button_side_padding" android:layout_marginEnd="@dimen/sec_qs_button_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.phone.MultiUserSwitch android:layout_gravity="center" android:id="@id/multi_user_switch" android:background="@drawable/sec_qs_ripple_drawable" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/sec_qs_button_width" android:layout_height="@dimen/sec_qs_button_height">
+        <ImageView android:layout_gravity="center" android:id="@id/multi_user_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    </com.android.systemui.statusbar.phone.MultiUserSwitch>
+</com.android.systemui.qs.buttons.QSMumButton>

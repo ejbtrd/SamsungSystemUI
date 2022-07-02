@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="right" android:layout_gravity="right" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/volume_panel_view" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/volume_panel_row_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center|top" android:id="@id/volume_panel_expand_button" android:layout_width="@dimen/volume_icon_size" android:layout_height="@dimen/volume_icon_size" android:layout_marginTop="@dimen/volume_panel_icon_margin" android:src="@drawable/tw_ic_audio_more" android:scaleType="centerInside" android:tint="@color/volume_icon_color" />
+    </FrameLayout>
+    <include layout="@layout/volume_panel_dual_view" />
+</FrameLayout>

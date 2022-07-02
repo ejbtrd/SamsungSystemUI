@@ -1,0 +1,79 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: SystemUI.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.apppickerview_apppickerview.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.leanback_leanback.version
+- META-INF/androidx.legacy_legacy-preference-v14.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-extensions.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.mediarouter_mediarouter.version
+- META-INF/androidx.palette_palette.version
+- META-INF/androidx.picker_picker-color.version
+- META-INF/androidx.preference_preference.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.remotecallback_remotecallback.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slice_slice-builders.version
+- META-INF/androidx.slice_slice-core.version
+- META-INF/androidx.slice_slice-view.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/com.google.android.material_material.version
+- META-INF/external__kotlinx.coroutines__android_common__kotlinx_coroutines_android.kotlin_module
+- META-INF/frameworks__base__packages__SettingsLib__android_common__SeslSettingsLib.kotlin_module
+- META-INF/frameworks__base__packages__SystemUI__shared__android_common__SystemUISharedLib.kotlin_module
+- webp
+- png
+- ogg
+- res/raw/edge_lighting_settings.json
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '31'
+  targetSdkVersion: '31'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  wm_shell_protolog.json: '8'
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '31'
+  versionName: '12'

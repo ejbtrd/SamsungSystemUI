@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>၀%</item>
+        <item>၅၀ %</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>စနစ္ ေရြးခ်ယ္မႈ (မူရင္းပါပုံစံ) ကို သံုးပါ</item>
+        <item>၁၆ bits/နမူနာ</item>
+        <item>၂၄ bits/နမူနာ</item>
+        <item>၃၂ bits/နမူနာ</item>
+        <item>၂၄/၃၂ bits/နမူနာ</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>စနစ္ ေရြးခ်ယ္မႈ (မူရင္းပါပုံစံ) ကို သံုးပါ</item>
+        <item>၁၆ bits/နမူနာ</item>
+        <item>၂၄ bits/နမူနာ</item>
+        <item>၃၂ bits/နမူနာ</item>
+        <item>၂၄/၃၂ bits/နမူနာ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ရွာေဖြေနပါသည္…</item>
+        <item>ဆက္သြယ္ေနပါသည္……</item>
+        <item>စစ္မွန္ေၾကာင္းအေထာက္အထားစစ္ေဆးေနျခင္း..</item>
+        <item>IP လိပ္စာ ရယူေနပါသည္…</item>
+        <item>ခ်ိတ္ဆက္ထားေသာ</item>
+        <item>ဆုိင္းငံ့ထားၿပီး</item>
+        <item>ဆက္သြယ္ထားမႈကုိ ျဖတ္ေတာက္ေနပါသည္..</item>
+        <item>ဆက္သြယ္ထားမႈကို ျဖတ္ေတာက္ၿပီးပါၿပီ</item>
+        <item>မေအာင္ျမင္ပါ</item>
+        <item>ပိတ္ဆီးထားပါသည္</item>
+        <item>သင့္ အင္တာနက္ ခ်ိတ္ဆက္မႈ အရည္အေသြး စစ္ေဆးေနသည္…</item>
+    </string-array>
+</resources>

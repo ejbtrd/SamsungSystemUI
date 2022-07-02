@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/subscreen_signal_info" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0px" android:layout_marginStart="23.0px" android:layout_marginEnd="23.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.CarrierText android:textSize="22.0px" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="start" android:layout_gravity="start" android:id="@id/subscreen_carrier_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <com.android.systemui.statusbar.phone.StatusIconContainer android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/subscreen_statusIcons" android:layout_width="wrap_content" android:layout_height="28.0px" />
+</LinearLayout>

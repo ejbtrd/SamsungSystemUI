@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.draganddrop.NonDragTargetView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/non_target_fullscreen" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_fullscreen_blur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_primary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_primary_blur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_secondary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_secondary_blur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_cell" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/non_target_cell_blur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+    <ImageView android:id="@id/drop_target_freeform" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="1.0" />
+    <ImageView android:id="@id/drop_target_freeform_blur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.wm.shell.draganddrop.NonDragTargetView>

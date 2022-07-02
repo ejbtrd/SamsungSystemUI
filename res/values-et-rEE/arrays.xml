@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Kasuta süsteemivalikut (vaikimisi)</item>
+        <item>16 bitti/sämplis</item>
+        <item>24 bitti/sämplis</item>
+        <item>32 bitti/sämplis</item>
+        <item>24/32 bitti/sämplis</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Kasuta süsteemivalikut (vaikimisi)</item>
+        <item>16 bitti/sämplis</item>
+        <item>24 bitti/sämplis</item>
+        <item>32 bitti/sämplis</item>
+        <item>24/32 bitti/sämplis</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Skaneerimine…</item>
+        <item>Ühendamine…</item>
+        <item>Autentimine…</item>
+        <item>IP-aadressi hankimine…</item>
+        <item>Ühendatud</item>
+        <item>Peatatud</item>
+        <item>Ühenduse katkestamine…</item>
+        <item>Ühendus katkestatud</item>
+        <item>Nurjunud</item>
+        <item>Blokeeritud</item>
+        <item>Internetiühenduse kvaliteedi kontrollimine…</item>
+    </string-array>
+</resources>

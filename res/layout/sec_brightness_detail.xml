@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sec_brightness_detail_settings_padding_top_bottom" android:paddingBottom="@dimen/sec_brightness_detail_settings_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sec_brightness_detail_settings_margin_top">
+        <TextView android:textSize="@dimen/sec_brightness_detail_level_text_size" android:textColor="@color/qs_detail_item_name" android:id="@id/brightness_level" android:paddingBottom="@dimen/sec_brightness_detail_level_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sec_brightness_detail_level" android:layout_marginStart="@dimen/sec_qs_detail_items_side_padding" android:layout_marginEnd="@dimen/sec_qs_detail_items_side_padding" />
+        <com.android.systemui.settings.brightness.BrightnessDetailSliderView android:layout_gravity="center_vertical" android:id="@id/detail_slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_brightness" android:importantForAccessibility="no">
+            <com.android.systemui.settings.brightness.ToggleSeekBar android:id="@id/detail_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sec_brightness_detail_slider_side_padding" android:paddingEnd="@dimen/sec_brightness_detail_slider_side_padding" android:splitTrack="false" />
+        </com.android.systemui.settings.brightness.BrightnessDetailSliderView>
+    </LinearLayout>
+</LinearLayout>

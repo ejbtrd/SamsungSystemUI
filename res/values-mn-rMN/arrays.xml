@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Системийн сонголтыг ашиглах (өгөгдмөл)</item>
+        <item>16 бит/сорьц</item>
+        <item>24 бит/сорьц</item>
+        <item>32 бит/сорьц</item>
+        <item>24/32 бит/сорьц</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Системийн сонголтыг ашиглах (өгөгдмөл)</item>
+        <item>16 бит/сорьц</item>
+        <item>24 бит/сорьц</item>
+        <item>32 бит/сорьц</item>
+        <item>24/32 бит/сорьц</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Шалгаж байна…</item>
+        <item>Холбогдож байна…</item>
+        <item>Баталгаажуулж байна…</item>
+        <item>IP хаяг авч байна…</item>
+        <item>Холбогдсон</item>
+        <item>Түр зогсоосон</item>
+        <item>Салгагдаж байна…</item>
+        <item>Салгасан</item>
+        <item>Амжилтгүй</item>
+        <item>Хаагдсан</item>
+        <item>Интернэт холболтынхоо чанарыг шалгаж байна…</item>
+    </string-array>
+</resources>

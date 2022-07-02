@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="insideOverlay" android:background="@color/widget_setting_window_background_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/widget_top_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/widget_setting_content_area_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/widget_setting_content_horizontal_padding" android:paddingVertical="@dimen/widget_setting_one_line_list_padding_top_bottom">
+            <TextView android:textAppearance="@style/PeopleWidgetSetting_Content" android:id="@id/widget_setting_select_conversation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Conversation" />
+            <TextView android:textSize="@dimen/widget_setting_change_summary_text_size" android:textColor="@color/widget_setting_title_text_color" android:id="@id/widget_setting_select_conversation_summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Conversation summary" android:fontFamily="sec-roboto-light" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/widget_setting_radio_label" android:paddingTop="@dimen/widget_setting_sub_header_padding_top" android:paddingBottom="@dimen/widget_setting_sub_header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_setting_background_color" style="@style/PeopleWidgetSetting_Title" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/widget_setting_content_area_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/widget_setting_content_horizontal_padding">
+                <RadioGroup android:orientation="vertical" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RadioButton android:theme="@style/WidgetSettingRadioStyle" android:id="@id/radio_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_setting_one_line_list_min_height" android:text="@string/widget_setting_white" android:paddingHorizontal="@dimen/widget_setting_radio_button_padding" android:paddingVertical="@dimen/widget_setting_one_line_list_padding_top_bottom" />
+                    <View android:id="@id/line1" android:layout_marginStart="50.0dip" style="@style/WidgetLineSeparator" />
+                    <RadioButton android:theme="@style/WidgetSettingRadioStyle" android:id="@id/radio_black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_setting_one_line_list_min_height" android:text="@string/widget_setting_black" android:paddingHorizontal="@dimen/widget_setting_radio_button_padding" android:paddingVertical="@dimen/widget_setting_one_line_list_padding_top_bottom" />
+                </RadioGroup>
+                <View android:id="@id/line2" android:paddingHorizontal="@dimen/widget_setting_content_horizontal_padding" style="@style/WidgetLineSeparator" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_setting_one_line_list_min_height">
+                    <TextView android:textSize="@dimen/widget_setting_seek_bar_current_text_size" android:textStyle="normal" android:textColor="@color/widget_setting_title_text_color" android:layout_gravity="center_vertical" android:id="@id/widget_setting_seek_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec-roboto-light" />
+                    <SeekBar android:theme="@style/WidgetSettingSeekBarStyle" android:layout_gravity="center_vertical" android:id="@id/widget_setting_seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="10" android:min="0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/switchNightModeLayout" android:background="@drawable/widget_setting_content_area_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_setting_space_bottom_height" android:minHeight="@dimen/widget_setting_one_line_list_min_height" android:paddingHorizontal="@dimen/widget_setting_content_horizontal_padding">
+            <Switch android:theme="@style/WidgetSettingRadioStyle" android:id="@id/switchNightModeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <TextView android:textAppearance="@style/PeopleWidgetSetting_Content" android:id="@id/withNightMode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_setting_night_mode_label" android:layout_centerInParent="true" android:layout_marginEnd="0.0dip" android:layout_toStartOf="@id/switchNightModeText" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

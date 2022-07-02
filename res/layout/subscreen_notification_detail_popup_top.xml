@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/subscreen_notification_top_popup_frame" android:focusable="true" android:layout_width="fill_parent" android:layout_height="75.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/subscreen_notification_hun_top_background" android:paddingTop="@dimen/subscreen_noti_top_popup_top_margin" android:layout_width="fill_parent" android:layout_height="@dimen/subscreen_noti_top_popup_height" android:elevation="4.0px" android:layout_marginHorizontal="@dimen/subscreen_noti_top_popup_margin">
+        <ImageView android:id="@id/subscreen_notification_header_icon" android:layout_width="@dimen/subscreen_noti_top_popup_icon_size" android:layout_height="@dimen/subscreen_noti_top_popup_icon_size" android:scaleType="centerInside" android:layout_marginStart="@dimen/subscreen_noti_top_popup_inner_margin" />
+        <TextView android:textAppearance="@style/TextAppearance.SubscreenNotificationDetail" android:textSize="@dimen/subscreen_noti_top_popup_title_text_size" android:ellipsize="marquee" android:id="@id/subscreen_notification_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="138.0px" android:singleLine="true" android:layout_marginStart="12.0px" />
+        <TextView android:textAppearance="@style/TextAppearance.SubscreenNotificationDetail" android:textSize="@dimen/subscreen_noti_top_popup_content_text_size" android:ellipsize="marquee" android:id="@id/subscreen_notification_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="12.0px" android:layout_marginEnd="12.0px" />
+    </LinearLayout>
+</FrameLayout>

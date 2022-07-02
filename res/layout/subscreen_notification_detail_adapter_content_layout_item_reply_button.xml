@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/subcreen_item_clear_all_layout" android:layout_width="fill_parent" android:layout_height="104.0px" android:layout_marginHorizontal="32.0px">
+        <TextView android:textSize="@dimen/subscreen_noti_title_text_size" android:textColor="@color/subscreen_notification_text_color" android:gravity="center" android:id="@id/cancel" android:background="@drawable/subscreen_notification_button_background" android:layout_width="216.0px" android:layout_height="76.0px" android:text="@string/cancel" android:fontFamily="roboto-medium" android:textAlignment="center" />
+        <TextView android:textSize="@dimen/subscreen_noti_title_text_size" android:textColor="@color/subscreen_notification_text_color" android:gravity="center" android:id="@id/send" android:background="@drawable/subscreen_notification_button_background" android:layout_width="216.0px" android:layout_height="76.0px" android:text="@string/accessibility_send_smart_reply" android:fontFamily="roboto-medium" android:textAlignment="center" android:layout_marginStart="16.0px" />
+    </LinearLayout>
+</FrameLayout>

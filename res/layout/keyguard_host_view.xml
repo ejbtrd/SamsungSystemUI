@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardHostView android:id="@id/keyguard_host_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto" xmlns:sysui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.keyguard.CarrierText android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/bouncer_carrier_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/keyguard_carrier_label_height" android:minWidth="1.0dip" android:singleLine="true" android:layout_marginStart="@dimen/keyguard_carrier_label_text_margin" sysui:originColor="origin_bouncer_carrier_text_color" sysui:whitebgColor="whitebg_keyguard_text_color" style="@style/keyguard_carrier_label_style" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/keyguard_biometric_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/keyguard_biometric_view" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center|left" android:id="@id/left_arrow_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.widget.SystemUIImageView android:layout_gravity="center" android:id="@id/left_arrow" android:visibility="gone" android:layout_width="@dimen/kg_arrow_view_size" android:layout_height="@dimen/kg_arrow_view_size" android:src="@drawable/lock_bouncer_btn_left_mtrl" android:scaleType="center" android:contentDescription="@string/kg_arrow_left" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/right_arrow_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.widget.SystemUIImageView android:layout_gravity="center" android:id="@id/right_arrow" android:visibility="gone" android:layout_width="@dimen/kg_arrow_view_size" android:layout_height="@dimen/kg_arrow_view_size" android:src="@drawable/lock_bouncer_btn_right_mtrl" android:scaleType="center" android:contentDescription="@string/kg_arrow_right" />
+    </FrameLayout>
+    <com.android.keyguard.KeyguardSecSecurityContainer android:layout_gravity="center" android:id="@id/keyguard_security_container" android:padding="0.0dip" android:fitsSystemWindows="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.keyguard.KeyguardSecurityViewFlipper android:gravity="center" android:id="@id/view_flipper" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.keyguard.KeyguardSecSecurityContainer>
+</com.android.keyguard.KeyguardHostView>

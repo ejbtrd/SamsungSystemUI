@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/subscreen_notification_full_popup_frame" android:background="@android:color/black" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/subscreen_noti_full_popup_margin">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/subscreen_noti_full_popup_icon_size" android:layout_height="@dimen/subscreen_noti_full_popup_icon_size" android:layout_marginTop="@dimen/subscreen_noti_full_popup_top_margin">
+            <ImageView android:id="@id/subscreen_notification_header_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/subscreen_notification_sub_icon" android:background="@drawable/subscreen_notification_hun_sub_icon_background" android:padding="5.0px" android:visibility="gone" android:layout_width="@dimen/subscreen_noti_full_popup_sub_icon_size" android:layout_height="@dimen/subscreen_noti_full_popup_sub_icon_size" android:scaleType="centerInside" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/TextAppearance.SubscreenNotificationDetail" android:textSize="@dimen/subscreen_noti_full_popup_title_text_size" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/subscreen_notification_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0px" android:singleLine="true" />
+        <TextView android:textAppearance="@style/TextAppearance.SubscreenNotificationDetail" android:textSize="@dimen/subscreen_noti_full_popup_content_text_size" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/subscreen_notification_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/subscreen_notification_detail_frame" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0px" android:paddingEnd="12.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/subscreen_notification_header_icon_restricted" android:layout_width="48.0px" android:layout_height="48.0px" android:scaleType="centerInside" />
+            <TextView android:textAppearance="@style/TextAppearance.SubscreenNotificationDetail" android:textSize="38.0px" android:ellipsize="marquee" android:id="@id/subscreen_notification_sub_text_retricted" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="6.0px" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

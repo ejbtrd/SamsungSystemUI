@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.buttons.QSSearchButton android:layout_gravity="center" android:id="@id/search_button_container" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/sec_qs_button_width" android:layout_height="@dimen/sec_qs_button_height" android:layout_marginStart="@dimen/sec_qs_button_side_padding" android:layout_marginEnd="@dimen/sec_qs_button_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/search_button" android:background="@drawable/sec_qs_ripple_drawable" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/tw_ic_ab_search_mtrl" android:contentDescription="@string/sec_accessibility_quick_settings_finder" android:tintMode="@color/status_bar_header_setting_tint_color" style="@android:style/Widget.Material.Button.Borderless" />
+</com.android.systemui.qs.buttons.QSSearchButton>

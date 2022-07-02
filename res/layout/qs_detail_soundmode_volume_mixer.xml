@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.SoundModeTileVolumeMixer android:orientation="vertical" android:id="@id/soundmode_tile_volume_mixer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/soundmode_tile_volume_mixer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="12.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailItemCategory" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_settings_sound_mode_detail_mixer_title" android:paddingStart="@dimen/sec_qs_detail_items_side_padding" />
+        <View android:layout_gravity="center" android:background="@drawable/sec_qs_detail_sub_header_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_qs_detail_category_divider_start" android:layout_marginEnd="@dimen/sec_qs_detail_category_divider_end" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</com.android.systemui.qs.tiles.SoundModeTileVolumeMixer>

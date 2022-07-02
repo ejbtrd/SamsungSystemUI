@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>ਸਿਸਟਮ ਚੋਣ ਵਰਤੋਂ (ਡਿਫਾੱਲਟ)</item>
+        <item>16 ਬਿਟ/ਨਮੂਨਾ</item>
+        <item>24 ਬਿਟ/ਨਮੂਨਾ</item>
+        <item>32 ਬਿਟ/ਨਮੂਨਾ</item>
+        <item>24/32 ਬਿਟ/ਨਮੂਨਾ</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>ਸਿਸਟਮ ਚੋਣ ਵਰਤੋਂ (ਡਿਫਾੱਲਟ)</item>
+        <item>16 ਬਿਟ/ਨਮੂਨਾ</item>
+        <item>24 ਬਿਟ/ਨਮੂਨਾ</item>
+        <item>32 ਬਿਟ/ਨਮੂਨਾ</item>
+        <item>24/32 ਬਿਟ/ਨਮੂਨਾ</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>ਸਕੈਨ ਹੋ ਰਿਹਾ ਹੈ…</item>
+        <item>ਕਨੈਕਟ ਹੋ ਰਿਹਾ ਹੈ…</item>
+        <item>ਪ੍ਰਮਾਣਿਤ ਕਰ ਰਿਹਾ ਹੈ…</item>
+        <item>IP ਪਤਾ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</item>
+        <item>ਕਨੈਕਟ ਕੀਤਾ ਗਿਆ</item>
+        <item>ਸਥਗਿਤ</item>
+        <item>ਡਿਸਕਨੈਕਟ ਹੋ ਰਿਹਾ ਹੈ…</item>
+        <item>ਡਿਸਕਨੈਕਟ ਹੋਇਆ</item>
+        <item>ਅਸਫਲ</item>
+        <item>ਬਲੌਕ ਕੀਤਾ</item>
+        <item>ਤੁਹਾਡੇ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਦੀ ਗੁਣਵੱਤਾ ਦੀ ਜਾਂਚ ਕਰ ਰਿਹਾ ਹੈ…</item>
+    </string-array>
+</resources>

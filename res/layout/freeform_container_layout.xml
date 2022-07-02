@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.systemui.freeformcontainer.FreeformContainerView android:id="@id/freeform_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/freeform_container_dim_view" android:background="@color/freeform_container_background_dim_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/freeform_container_pointer_group_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/freeform_container_pointer_control_view" android:layout_width="@dimen/freeform_container_outer_size" android:layout_height="@dimen/freeform_container_outer_size" />
+    <ImageView android:id="@id/freeform_container_folder_dragging_icon_view" android:layout_width="@dimen/freeform_container_outer_size" android:layout_height="@dimen/freeform_container_outer_size" android:elevation="@dimen/freeform_container_folder_dragging_icon_elevation" />
+    <com.samsung.android.systemui.freeformcontainer.FreeformContainerFolderView android:scrollbarThumbHorizontal="@drawable/freeform_container_folder_scrollbar_thumb" android:scrollbarTrackHorizontal="@drawable/freeform_container_folder_scrollbar_track" android:id="@id/freeform_container_recycler_view" android:background="@drawable/freeform_container_folder_bg" android:visibility="gone" android:scrollbars="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/freeform_container_folder_description" android:elevation="@dimen/freeform_container_folder_elevation" />
+</com.samsung.android.systemui.freeformcontainer.FreeformContainerView>

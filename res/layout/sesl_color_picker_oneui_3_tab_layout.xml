@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/sesl_color_picker_tab_layout_height" android:layout_marginHorizontal="@dimen/sesl_color_picker_oneui_3_dialog_extra_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/sesl_color_picker_swatches_text_view" android:background="@drawable/sesl_color_picker_tab_selector_bg" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sesl_color_picker_swatches_text" android:layout_weight="1.0" style="@style/TabText" />
+    <TextView android:textColor="@color/sesl_color_picker_tab_unselected" android:gravity="center" android:id="@id/sesl_color_picker_spectrum_text_view" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sesl_color_picker_spectrum_text" android:layout_weight="1.0" style="@style/TabText" />
+</LinearLayout>

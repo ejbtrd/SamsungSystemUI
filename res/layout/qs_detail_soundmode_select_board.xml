@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.SoundModeTileSelectBoard android:orientation="vertical" android:id="@id/soundmode_tile_select_board_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/soundmode_subtile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailItemCategory" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_settings_sound_mode_detail_label" android:paddingStart="@dimen/sec_qs_detail_items_side_padding" />
+        <View android:layout_gravity="center" android:background="@drawable/sec_qs_detail_sub_header_divider" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sec_qs_detail_category_divider_start" android:layout_marginEnd="@dimen/sec_qs_detail_category_divider_end" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/sound_mode_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <LinearLayout android:id="@id/sound_image_button_wrapper" style="@style/QSSoundModeTileDetailButtonWrapperStyle">
+            <FrameLayout android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layoutDirection="ltr">
+                <ImageView android:id="@id/volume_normal_icon" android:tag="@string/qs_detail_soundmode_image" android:layout_width="14.0dip" android:layout_height="fill_parent" android:src="@drawable/tw_ic_audio_sound_ringtone" android:tint="@color/quick_settings_sound_mode_detail_unselected_color" />
+                <ImageView android:id="@id/volume_sound_icon_wave_s" android:layout_width="4.0dip" android:layout_height="fill_parent" android:src="@drawable/tw_ic_audio_sound_wave_s" android:tint="@color/quick_settings_sound_mode_detail_unselected_color" android:alpha="0.5" />
+                <ImageView android:id="@id/volume_sound_icon_wave_l" android:layout_width="7.0dip" android:layout_height="fill_parent" android:src="@drawable/tw_ic_audio_sound_wave_l" android:tint="@color/quick_settings_sound_mode_detail_unselected_color" android:alpha="0.5" />
+            </FrameLayout>
+            <TextView android:id="@id/sound_text_view" android:text="@string/quick_settings_sound_mode_sound_label" style="@style/QSSoundModeTileDetailButtonTextStyle" />
+            <RadioButton android:theme="@android:style/Theme.DeviceDefault.Light" android:id="@id/sound_selected_circle" android:tag="@string/qs_detail_soundmode_dot" android:background="@null" android:focusable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        </LinearLayout>
+        <View style="@style/QSSoundModeTileDetailButtonDividerStyle" />
+        <LinearLayout android:id="@id/vibrate_image_button_wrapper" style="@style/QSSoundModeTileDetailButtonWrapperStyle">
+            <ImageView android:id="@id/vibrate_image_view" android:tag="@string/qs_detail_soundmode_image" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/tw_ic_audio_vibrate_mtrl" android:scaleType="centerInside" android:layoutDirection="ltr" />
+            <TextView android:id="@id/vibrate_text_view" android:text="@string/quick_settings_sound_mode_vibrate_label" style="@style/QSSoundModeTileDetailButtonTextStyle" />
+            <RadioButton android:theme="@android:style/Theme.DeviceDefault.Light" android:id="@id/vibrate_selected_circle" android:tag="@string/qs_detail_soundmode_dot" android:background="@null" android:focusable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        </LinearLayout>
+        <View style="@style/QSSoundModeTileDetailButtonDividerStyle" />
+        <LinearLayout android:id="@id/mute_image_button_wrapper" style="@style/QSSoundModeTileDetailButtonWrapperStyle">
+            <FrameLayout android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layoutDirection="ltr">
+                <ImageView android:id="@id/mute_image_view" android:tag="@string/qs_detail_soundmode_image" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/tw_ic_audio_mute_mtrl" android:scaleType="centerInside" android:tint="@color/quick_settings_sound_mode_detail_unselected_color" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/volume_splash_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rotation="45.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/volume_icon_mute_splash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_ic_audio_mute_splash" android:tint="@color/quick_settings_sound_mode_detail_unselected_color" />
+                </FrameLayout>
+            </FrameLayout>
+            <TextView android:id="@id/mute_text_view" android:text="@string/quick_settings_sound_mode_mute_label" style="@style/QSSoundModeTileDetailButtonTextStyle" />
+            <RadioButton android:theme="@android:style/Theme.DeviceDefault.Light" android:id="@id/mute_selected_circle" android:tag="@string/qs_detail_soundmode_dot" android:background="@null" android:focusable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.systemui.qs.tiles.SoundModeTileSelectBoard>

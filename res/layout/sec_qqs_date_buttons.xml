@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.SystemUI.QuickSettings.Header" android:id="@id/quick_qs_date_buttons" android:tag="expand_anim" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/sec_qs_buttons_container_height" android:layout_below="@id/quick_qs_status_icons" android:paddingStart="@dimen/sec_style_qs_header_status_bar_side_padding" android:paddingEnd="@dimen/sec_style_qs_header_date_buttons_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="open_anim" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.android.systemui.statusbar.policy.QSShortenDate android:textAppearance="@style/SecQuickStatusBarHeaderTextStyle" android:textSize="17.0dip" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/header_date" android:tag="header_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:layout_gravity="end|center" android:id="@id/header_settings_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/qs_button_impl" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

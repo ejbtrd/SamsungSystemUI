@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>સિસ્ટમ પસંદગીનો ઉપયોગ કરો (ડિફૉલ્ટ)</item>
+        <item>16 બિટ/નમૂનો</item>
+        <item>24 બિટ/નમૂનો</item>
+        <item>32 બિટ/નમૂનો</item>
+        <item>24/32 બિટ/નમૂનો</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>સિસ્ટમ પસંદગીનો ઉપયોગ કરો (ડિફૉલ્ટ)</item>
+        <item>16 બિટ/નમૂનો</item>
+        <item>24 બિટ/નમૂનો</item>
+        <item>32 બિટ/નમૂનો</item>
+        <item>24/32 બિટ/નમૂનો</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>સ્કેન કરે છે…</item>
+        <item>જોડાઇ રહ્યું છે…</item>
+        <item>પ્રમાણભૂત કરવામાં આવે છે…</item>
+        <item>IP સરનામું મેળવે છે…</item>
+        <item>જોડાયું</item>
+        <item>નિલંબિત</item>
+        <item>કપાઇ રહ્યું છે…</item>
+        <item>ડિસ્કનેક્ટ કર્યું</item>
+        <item>નિષ્ફળ</item>
+        <item>અવરોધિત કરેલ</item>
+        <item>તમારા ઇન્ટરનેટ જોડાણની ગુણવત્તા તપાસી રહ્યાં છે…</item>
+    </string-array>
+</resources>

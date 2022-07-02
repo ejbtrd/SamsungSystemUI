@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>სისტემის არჩევანის გამოყენება (ნაგულისხმევი)</item>
+        <item>16 ბიტი/ნიმუში</item>
+        <item>24 ბიტი/ნიმუში</item>
+        <item>32 ბიტი/ნიმუში</item>
+        <item>24/32 ბიტი/ნიმუში</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>სისტემის არჩევანის გამოყენება (ნაგულისხმევი)</item>
+        <item>16 ბიტი/ნიმუში</item>
+        <item>24 ბიტი/ნიმუში</item>
+        <item>32 ბიტი/ნიმუში</item>
+        <item>24/32 ბიტი/ნიმუში</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>მიმდ. სკანირება</item>
+        <item>დაკავშირება…</item>
+        <item>ავტორიზაცია…</item>
+        <item>მიმდინარეობს IP მისამართის მიღება…</item>
+        <item>დაკავშირებულია</item>
+        <item>შეჩერებულია</item>
+        <item>გამორთვა…</item>
+        <item>გაითიშა</item>
+        <item>ვერ შესრულდა</item>
+        <item>დაიბლოკა</item>
+        <item>მოწმდება თქვენი ინტერნეტ-კავშირის ხარისხი…</item>
+    </string-array>
+</resources>

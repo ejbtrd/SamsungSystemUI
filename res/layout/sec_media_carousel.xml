@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/media_carousel_layout" android:layout_width="fill_parent" android:layout_height="@dimen/sec_qs_media_player_height_collapsed" android:layout_marginStart="@dimen/sec_qs_media_side_padding" android:layout_marginEnd="@dimen/sec_qs_media_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:tag="expand_anim" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center_vertical" android:tag="open_anim" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.viewpager.widget.ViewPager android:id="@id/sec_media_carousel_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.android.systemui.qs.SecPageIndicator android:layout_gravity="center|top" android:id="@id/sec_media_page_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/media_output_remoteviews" android:background="@color/sec_qs_media_player_background_color" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ScrollView android:id="@id/media_output_scroll" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:id="@id/media_output_remoteviews_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </ScrollView>
+                <LinearLayout android:id="@id/media_output_remoteviews_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

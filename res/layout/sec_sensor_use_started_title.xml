@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@android:style/Theme.DeviceDefault.Settings" android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <ImageView android:id="@id/sensor_use_camera_icon" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/stat_sys_privacy_camera" android:tint="@color/sec_sensor_use_started_title_icon_color" />
+        <ImageView android:id="@id/sensor_use_microphone_icon" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/stat_sys_privacy_voicerecorder" android:tint="@color/sec_sensor_use_started_title_icon_color" />
+    </LinearLayout>
+    <com.android.internal.widget.DialogTitle android:id="@id/sensor_use_started_title_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" style="@android:style/TextAppearance.DeviceDefault.WindowTitle" />
+</LinearLayout>

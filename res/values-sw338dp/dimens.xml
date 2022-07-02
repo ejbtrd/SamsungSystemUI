@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="indicator_garden_scale_icon_ratio">0.8244</item>
+    <dimen name="indicator_garden_scale_signal_cluster_battery_end_margin">2.4730835dip</dimen>
+    <dimen name="indicator_garden_scale_text_size">12.365875dip</dimen>
+</resources>

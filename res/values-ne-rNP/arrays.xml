@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>सिस्टमको चयन (पूर्वनिर्धारित)</item>
+        <item>16 बिट्स/नमूना</item>
+        <item>24 बिट्स/नमूना</item>
+        <item>32 बिट्स/नमूना</item>
+        <item>24/32 बिट्स/नमूना</item>
+    </string-array>
+    <string-array name="sec_bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>सिस्टमको चयन (पूर्वनिर्धारित)</item>
+        <item>16 बिट्स/नमूना</item>
+        <item>24 बिट्स/नमूना</item>
+        <item>32 बिट्स/नमूना</item>
+        <item>24/32 बिट्स/नमूना</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>स्क्यान गर्दैछ…</item>
+        <item>जोडिँदै छ…</item>
+        <item>सत्यापन गरिँदै छ…</item>
+        <item>IP ठेगाना प्राप्त गर्दै…</item>
+        <item>जोड्यो</item>
+        <item>निलंबित गरिएको छ</item>
+        <item>जोडन विच्छेद हुँदै छ…</item>
+        <item>जोडन विच्छेद भयो</item>
+        <item>असफल</item>
+        <item>ब्लक गरिएको</item>
+        <item>तपाईको इन्टरनेट जडानको गुणस्तर जाँच गर्दै…</item>
+    </string-array>
+</resources>
